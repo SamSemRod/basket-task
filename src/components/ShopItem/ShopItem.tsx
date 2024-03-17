@@ -39,7 +39,7 @@ export function ShopItem({item}:{item:Item}) {
                   </Div>
                 }
               >
-              <Button id="tooltip-1" mode="link" style={{color: 'black'}}>
+              <Button id="tooltip-1" mode="link">
                 {item.description.split(" ").splice(0,5).join(" ")}...
               </Button>
             </Popover>     
