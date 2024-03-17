@@ -1,0 +1,27 @@
+.content {
+    display: flex;
+    width: 100%; 
+    flex-wrap: wrap;
+    overflow: hidden; 
+  }
+  
+  .shop-list,
+  .total-price {
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .shop-list {
+    flex: 3;
+  }
+  
+  .total-price {
+    flex: 1; 
+  }
+  @media (max-width: 800px) {
+    
+    .shop-list,
+    .total-price {
+      flex-basis: 100%;
+    }
+  }
